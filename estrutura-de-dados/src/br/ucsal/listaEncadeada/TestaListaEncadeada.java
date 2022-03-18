@@ -25,22 +25,31 @@ public class TestaListaEncadeada {
 			}
 			
 			public void addContato(ListaEncadeada listaEncadeada) {
-			    Contato contato1 = new Contato(1, "Karilana", "Karilana@email.com.br"); //valor1
-			    Contato contato2 = new Contato(2, "Hyago", "Hyago@email.com.br"); //valor 2
-			    Contato contato3 = new Contato(3, "Lucilandia", "Lucilandia@email.com.br"); //valor3
-			    Contato contato4 = new Contato(4, "Amancio", "Amancio@email.com.br"); //valor 4
-			    Contato contato5 = new Contato(5, "Willian", "Willian@email.com.br"); //valor 5
-			    Contato contato6 = new Contato(6, "Raul", "Raul@email.com.br"); //valor 5
+			    Contato contato1 = new Contato(1, "Mario", "mario@email.com.br"); //valor1
+			    Contato contato2 = new Contato(2, "Angela", "angela@email.com.br"); //valor 2
+			    Contato contato3 = new Contato(3, "Osvaldo", "osvaldo@email.com.br"); //valor3
+			    Contato contato4 = new Contato(4, "Marcos", "marcos@email.com.br"); //valor 4
+			    Contato contato5 = new Contato(5, "Fernando", "fernando@email.com.br"); //valor 5
+			    Contato contato6 = new Contato(6, "Semiramis", "semiramis@email.com.br"); //valor 6
+			    Contato contato7 = new Contato(7, "João", "joao@email.com.br"); //valor 7
+			    Contato contato8 = new Contato(8, "Lucia", "lucia@email.com.br"); //valor 8
+			    Contato contato9 = new Contato(9, "Carlos", "carlos@email.com.br"); //valor 9
+			    Contato contato10 = new Contato(10, "Beatriz", "beatriz@email.com.br"); //valor 10
 				
-				listaEncadeada.adicionar(contato1); // |Karilana| --> 
-				listaEncadeada.adicionar(contato2); // |Karilana| -->|Hyago| -->
-				listaEncadeada.adicionar(contato3); // |Karilana| -->|Hyago| --> |Lucilandia| -->
-				listaEncadeada.adicionar(contato4); // |Karilana| -->|Hyago| --> |Lucilandia| -->|Amancio| -->
-				listaEncadeada.adicionar(contato5);//  |Karilana| -->|Hyago| --> |Lucilandia| -->|Amancio| -->|Willian| -->
-				listaEncadeada.adicionar(contato6); // |Karilana| -->|Hyago| --> |Lucilandia| -->|Amancio| -->|Willian| -->|Raul| -->
+				listaEncadeada.adicionar(contato1); 
+				listaEncadeada.adicionar(contato2); 
+				listaEncadeada.adicionar(contato3); 
+				listaEncadeada.adicionar(contato4);
+				listaEncadeada.adicionar(contato5);
+				listaEncadeada.adicionar(contato6); 
+				listaEncadeada.adicionar(contato7); 
+				listaEncadeada.adicionar(contato8); 
+				listaEncadeada.adicionar(contato9); 
+				listaEncadeada.adicionar(contato10); 
 			}
 			
 			public void removerContato(ListaEncadeada listaEncadeada) {
+				listaEncadeada.remover();
 				listaEncadeada.remover();
 				listaEncadeada.remover();
 				listaEncadeada.remover();
